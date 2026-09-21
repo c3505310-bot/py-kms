@@ -1,0 +1,11 @@
+# Language detection rules
+# Configuration for git attributes
+*.yml linguist-detectable=false
+public/*.html linguist-vendored
+node_modules/* linguist-vendored
+src/**/*.ts linguist-detectable
+*.sh text eol=lf  
+public/**/*.html linguist-vendored
+vendor/* linguist-vendored
+*.bat text eol=crlf
+# eof 9a7efe51
